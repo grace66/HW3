@@ -1,0 +1,67 @@
+Pg 389-390
+//Exercises:  6, 8, 9, 19
+
+3.1.6 Give the number of calls to put () and get () issued by FrequencyCounter,
+as a function of the number W of words and the number D of distinct words in the input.
+
+Answer:
+put () 3
+get () 4
+total = 7
+which words W and Distinct words D: (7*W)+(W/D)
+
+
+
+3.1.8 what is the most frequently used word of ten letters or more in TaleOfTwoCities
+
+
+Answer: The most frequently used word is "the".
+
+
+ 
+3.1.9 Add code to Frequency Counter to keep track of the last call to put(). 
+Print the last word inserted and the number of words that were processed in the inout stream prior to this insertion, 
+Run your profeam for tale.txt with length of cutoffs 1,8 snd 10.
+
+Answer:
+Cutoff at 1: last word  'end:' words processed 139043
+Cutoff at 8: last word 'newsletter' words processed 18226
+Cutoff at 10; last word 'newsletter' words processed 6695
+
+
+
+
+3.1.19 Modify frequencyCounter to print all of the values having the highest frequenct of occurrence, not just one of them.
+
+
+Exercises: 1, 9
+
+1. Answer:38
+
+  
+9.Draw all the different BST shapes that can result when N keys are inserted into an initially empty tree, for N = 2, 3, 4, 5, and 6
+
+Answer: We use parenthetic notation to represent our answers, where O is an arbitrary node value, and nil is an empty child.
+N = 2 
+O [O nil] O [nil O] 
+N = 3 
+O [O [O nil] nil] O [O [nil O] nil] O [nil O [O nil]] O [nil O [nil O]] O [O O]
+N = 4 
+O [nil O [O [O nil] nil]] O [nil O [O [nil O] nil]] O [nil O [nil O [O nil]]] O [nil O [nil O [nil O]]] O [nil O [O O]] O [O [O [O nil] nil] nil] O [O [O [nil O] nil] nil] O [O [nil O [O nil]] nil] O [O [nil O [nil O]] nil] O [O [O O] nil] O [O [O nil] O] O [O [nil O] O] O [O O [O nil]] O [O O [nil O]
+
+
+3. Draw all possible binary search trees containing the 4 elements [1,2,3,4]
+-file uploaded
+
+
+4. What is the minimum number of nodes that a binary tree can have with
+a depth of N?
+
+Answer: Minimum = n+1
+
+
+5. What is the maxinum number of nodes that a binary tree can have with
+a depth of N?
+
+
+Answer: maxinum = 2^n+1 - 1
